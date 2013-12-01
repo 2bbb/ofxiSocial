@@ -31,7 +31,7 @@ void ofApp::exit(){
 
 //--------------------------------------------------------------
 void ofApp::touchDown(ofTouchEventArgs & touch){
-    ofxiSocial::share(ofxiSocialServiceTypeTwitter, "Test", "http://2bit.jp/", image);
+    ofxiSocial::share(ofxiSocialServiceTypeFacebook, "Post From openFrameworks", "http://openframeworks.cc/", image);
 }
 
 //--------------------------------------------------------------
