@@ -16,7 +16,7 @@
 
 typedef enum {
     ofxiSocialServiceTypeTwitter,
-    ofxiSocialServiceTypeFacebook,
+    ofxiSocialServiceTypeFacebook
 } ofxiSocialServiceType;
 
 class ofxiSocial {
